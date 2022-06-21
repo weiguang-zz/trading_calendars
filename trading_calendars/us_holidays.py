@@ -218,6 +218,14 @@ Christmas = Holiday(
     observance=nearest_workday,
 )
 
+SixMonthHoliday = Holiday(
+    'sixMonthHoliday',
+    month=6,
+    day=19,
+    start_date=Timestamp('2022-01-01'),
+    observance=nearest_workday,
+)
+
 # Early Closes
 
 MonTuesThursBeforeIndependenceDay = Holiday(

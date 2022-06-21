@@ -68,7 +68,7 @@ from .us_holidays import (
     USWashingtonsBirthDay1964to1970,
     USWashingtonsBirthDayBefore1964,
     WeatherSnowClosing,
-    WednesdayBeforeIndependenceDayPost2013,
+    WednesdayBeforeIndependenceDayPost2013, SixMonthHoliday,
 )
 
 # Useful resources for making changes to this file:
@@ -191,6 +191,7 @@ class XNYSExchangeCalendar(TradingCalendar):
                 USColumbusDayBefore1954,
                 ChristmasBefore1954,
                 Christmas,
+                SixMonthHoliday
             ]
         )
 
