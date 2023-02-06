@@ -44,7 +44,7 @@ start_default = pd.Timestamp('1990-01-01', tz=UTC)
 end_base = pd.Timestamp('today', tz=UTC)
 # Give an aggressive buffer for logic that needs to use the next trading
 # day or minute.
-end_default = end_base + pd.Timedelta(days=365)
+end_default = end_base + pd.Timedelta(days=365*5)
 
 NANOS_IN_MINUTE = 60000000000
 MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY = range(7)
