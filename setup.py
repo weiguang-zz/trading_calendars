@@ -67,7 +67,7 @@ if __name__ == '__main__':
             ],
         },
         cmdclass=versioneer.get_cmdclass(),
-        version='2.1.2',
+        version='2.1.4',
         author=AUTHOR,
         author_email=AUTHOR_EMAIL,
         description=DESCRIPTION,

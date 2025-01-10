@@ -394,4 +394,5 @@ USNationalDaysofMourning = [
     Timestamp("2004-06-11", tz=UTC),
     Timestamp("2007-01-02", tz=UTC),
     Timestamp("2018-12-05", tz=UTC),
+    Timestamp("2025-01-09", tz=UTC),
 ]
